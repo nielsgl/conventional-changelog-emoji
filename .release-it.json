@@ -1,0 +1,19 @@
+{
+	"verbose": true,
+	"requireCleanWorkingDir": false,
+	"force": true,
+	"src": {
+		"commitMessage": "Release %s"
+	},
+	"npm": {
+		"publish": false,
+		"private": true
+	},
+	"github": {
+		"release": true
+	},
+	"increment": "conventional:angular",
+	"beforeChangelogCommand": "conventional-changelog -i CHANGELOG.md -s -n .",
+	"changelogCommand": "conventional-changelog -n . | tail -n +3",
+	"safeBump": false
+}
