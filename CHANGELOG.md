@@ -1,3 +1,16 @@
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/nielsgl/conventional-changelog-emoji/compare/0.1.1...0.2.0) (2018-02-17)
+
+
+### :memo: Documentation
+
+* **common:** add github version badge ([6dbd556](https://github.com/nielsgl/conventional-changelog-emoji/commit/6dbd556))
+
+
+### :sparkle: Features
+
+* **common:** test for minor bump with feature tagged commit ([b99d1e3](https://github.com/nielsgl/conventional-changelog-emoji/commit/b99d1e3))
+
 <a name="0.1.1"></a>
 ## [0.1.1](https://github.com/nielsgl/conventional-changelog-emoji/compare/0.1.0...0.1.1) (2018-02-17)
 
