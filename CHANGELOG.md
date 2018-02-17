@@ -1,3 +1,11 @@
+<a name="0.0.4"></a>
+## [0.0.4](https://github.com/nielsgl/conventional-changelog-emoji/compare/0.0.3...0.0.4) (2018-02-17)
+
+
+### :sparkle: Features
+
+* **build:** update release-it config to release to npm ([a24c904](https://github.com/nielsgl/conventional-changelog-emoji/commit/a24c904))
+
 <a name="0.0.3"></a>
 ## [0.0.3](https://github.com/nielsgl/conventional-changelog-emoji/compare/0.0.2...0.0.3) (2018-02-17)
 
