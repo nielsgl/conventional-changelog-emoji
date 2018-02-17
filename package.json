@@ -23,7 +23,7 @@
 	"main": "index.js",
 	"scripts": {
 		"bump": "conventional-recommended-bump -p emoji",
-		"release": "DEBUG=app:* release-it $(npm run bump --silent)",
+		"release": "release-it $(npm run bump --silent)",
 		"test": "echo \"Error: no test specified\" && exit 0"
 	},
 	"devDependencies": {
