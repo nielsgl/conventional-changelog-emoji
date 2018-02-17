@@ -11,5 +11,27 @@ Conventional Changelog Emoji Preset
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![GitHub license](https://img.shields.io/github/license/nielsgl/conventional-changelog-emoji.svg?style=flat-square)](https://github.com/nielsgl/conventional-changelog-emoji/blob/master/LICENSE)
 
-## Getting Started
+## :rocket: Installation
 
+Add as a `devDependency` in your project:
+
+```
+yarn add --dev conventional-changelog-emoji
+```
+
+## :wrench: Configuration
+
+
+
+## :zap: Integrations
+
+
+## Example
+
+* _TODO_
+
+
+## :page_facing_up: Licence
+
+
+[MIT](./LICENCE)
