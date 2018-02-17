@@ -6,8 +6,8 @@
 		"commitMessage": "Release %s"
 	},
 	"npm": {
-		"publish": false,
-		"private": true
+		"publish": true,
+		"private": false
 	},
 	"github": {
 		"release": true
