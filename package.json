@@ -3,19 +3,19 @@
 	"version": "0.0.6",
 	"author": "Niels van Galen Last <nvangalenlast@gmail.com>",
 	"description": "Conventional Changelog Emoji Preset",
-	"keywords": [
-		"conventional changelog",
-		"changelog",
-		"emoji"
-	],
+	"keywords": ["conventional changelog", "changelog", "emoji"],
 	"license": "MIT",
-	"homepage": "https://github.com/nielsgl/conventional-changelog-emoji#readme",
+	"homepage":
+		"https://github.com/nielsgl/conventional-changelog-emoji#readme",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/nielsgl/conventional-changelog-emoji.git"
 	},
 	"bugs": {
 		"url": "https://github.com/nielsgl/conventional-changelog-emoji/issues"
+	},
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/"
 	},
 	"main": "index.js",
 	"scripts": {
