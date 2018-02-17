@@ -12,7 +12,6 @@
 	"github": {
 		"release": true
 	},
-	"increment": "conventional:angular",
 	"beforeChangelogCommand": "conventional-changelog -i CHANGELOG.md -s -n .",
 	"changelogCommand": "conventional-changelog -n . | tail -n +3",
 	"safeBump": false
