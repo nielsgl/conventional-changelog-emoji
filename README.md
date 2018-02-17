@@ -10,3 +10,6 @@ Conventional Changelog Emoji Preset
 [![GitHub stars](https://img.shields.io/github/stars/nielsgl/conventional-changelog-emoji.svg?style=flat-square)](https://github.com/nielsgl/conventional-changelog-emoji/stargazers)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![GitHub license](https://img.shields.io/github/license/nielsgl/conventional-changelog-emoji.svg?style=flat-square)](https://github.com/nielsgl/conventional-changelog-emoji/blob/master/LICENSE)
+
+## Getting Started
+
