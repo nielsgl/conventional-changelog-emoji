@@ -1,3 +1,24 @@
+<a name="0.1.0"></a>
+# [0.1.0](https://github.com/nielsgl/conventional-changelog-emoji/compare/0.0.6...0.1.0) (2018-02-17)
+
+
+### :bug: Bug Fixes
+
+* **build:** resolve release-it NPM ENEEDAUTH error ([916dd70](https://github.com/nielsgl/conventional-changelog-emoji/commit/916dd70))
+* **core:** match commit by regex ([ca8e7b4](https://github.com/nielsgl/conventional-changelog-emoji/commit/ca8e7b4))
+
+
+### :sparkle: Features
+
+* **build:** add bump script ([556929c](https://github.com/nielsgl/conventional-changelog-emoji/commit/556929c))
+* **build:** add bump scripts ([1830a34](https://github.com/nielsgl/conventional-changelog-emoji/commit/1830a34))
+* **core:** add self as dependency for testing ([ad9a349](https://github.com/nielsgl/conventional-changelog-emoji/commit/ad9a349))
+
+
+### :wrench: Configuration
+
+* **build:** remove increment from release-it config ([5388ea1](https://github.com/nielsgl/conventional-changelog-emoji/commit/5388ea1))
+
 <a name="0.0.6"></a>
 ## [0.0.6](https://github.com/nielsgl/conventional-changelog-emoji/compare/0.0.5...0.0.6) (2018-02-17)
 
