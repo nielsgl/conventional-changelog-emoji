@@ -1,3 +1,4 @@
+const debug = require('debug')('app:writer-opts');
 const compareFunc = require(`compare-func`);
 const Q = require(`q`);
 const readFile = Q.denodeify(require(`fs`).readFile);
@@ -25,31 +26,59 @@ function getWriterOpts() {
 			let discard = true;
 			const issues = [];
 
+			debug('commit', commit);
+			debug('context', context)
+
 			commit.notes.forEach(note => {
 				note.title = `BREAKING CHANGES`;
 				discard = false;
 			});
 
-			if (commit.type === `feat`) {
-				commit.type = `Features`;
-			} else if (commit.type === `fix`) {
-				commit.type = `Bug Fixes`;
-			} else if (commit.type === `perf`) {
-				commit.type = `Performance Improvements`;
-			} else if (commit.type === `revert`) {
-				commit.type = `Reverts`;
+			// if (commit.type === `feat`) {
+			// 	commit.type = `Features`;
+			// } else if (commit.type === `fix`) {
+			// 	commit.type = `Bug Fixes`;
+			// } else if (commit.type === `perf`) {
+			// 	commit.type = `Performance Improvements`;
+			// } else if (commit.type === `revert`) {
+			// 	commit.type = `Reverts`;
+			// } else if (discard) {
+			// 	return;
+			// } else if (commit.type === `docs`) {
+			// 	commit.type = `Documentation`;
+			// } else if (commit.type === `style`) {
+			// 	commit.type = `Styles`;
+			// } else if (commit.type === `refactor`) {
+			// 	commit.type = `Code Refactoring`;
+			// } else if (commit.type === `test`) {
+			// 	commit.type = `Tests`;
+			// } else if (commit.type === `chore`) {
+			// 	commit.type = `Chores`;
+			// }
+			if (commit.type && commit.type.match(/feat/)) {
+				commit.type = `:sparkle: Features`;
+			} else if (commit.type && commit.type.match(/fix/)) {
+				commit.type = `:bug: Bug Fixes`;
+			} else if (commit.type && commit.type.match(/perf/)) {
+				commit.type = `:zap: Performance Improvements`;
+			} else if (commit.type && commit.type.match(/revert/)) {
+				commit.type = `:rewind: Reverts`;
+			} else if (commit.type && commit.type.match(/docs/)) {
+				commit.type = `:memo: Documentation`;
+			} else if (commit.type && commit.type.match(/style/)) {
+				commit.type = `:lipstick: Styles`;
+			} else if (commit.type && commit.type.match(/refactor/)) {
+				commit.type = `:hammer: Code Refactoring`;
+			} else if (commit.type && commit.type.match(/test/)) {
+				commit.type = `:white_check_mark: Tests`;
+			} else if (commit.type && commit.type.match(/config/)) {
+				commit.type = `:wrench: Configuration`;
+			} else if (commit.type && commit.type.match(/chore/)) {
+				commit.type = `Chores`;
+			} else if (commit.type && commit.type.match(/init/)) {
+				commit.type = `Project`;
 			} else if (discard) {
 				return;
-			} else if (commit.type === `docs`) {
-				commit.type = `Documentation`;
-			} else if (commit.type === `style`) {
-				commit.type = `Styles`;
-			} else if (commit.type === `refactor`) {
-				commit.type = `Code Refactoring`;
-			} else if (commit.type === `test`) {
-				commit.type = `Tests`;
-			} else if (commit.type === `chore`) {
-				commit.type = `Chores`;
 			}
 
 			if (commit.scope === `*`) {
@@ -92,6 +121,8 @@ function getWriterOpts() {
 
 				return false;
 			});
+
+			debug('end commit', commit)
 
 			return commit;
 		},

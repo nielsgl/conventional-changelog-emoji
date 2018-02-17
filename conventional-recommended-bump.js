@@ -1,3 +1,5 @@
+const debug = require('debug')('app:conventional-recommended-bump');
+
 module.exports = {
 	whatBump: commits => {
 		let level = 2;
@@ -5,6 +7,7 @@ module.exports = {
 		let features = 0;
 
 		commits.forEach(commit => {
+			debug('commit', commit);
 			if (commit.notes.length > 0) {
 				breakings += commit.notes.length;
 				level = 0;
@@ -16,6 +19,7 @@ module.exports = {
 			}
 		});
 
+		debug('level', level);
 		return {
 			level: level,
 			reason: `There are ${breakings} BREAKING CHANGES and ${features} features`,
@@ -23,7 +27,8 @@ module.exports = {
 	},
 
 	parserOpts: {
-		headerPattern: /^(\w*)(?:\((.*)\))?\: (.*)$/,
+		// headerPattern: /^(\w*)(?:\((.*)\))?\: (.*)$/,
+		headerPattern: /^(\w*|\:\w*\: \w*)(?:\((.*)\))?\: (.*)$/,
 		headerCorrespondence: [`type`, `scope`, `subject`],
 		noteKeywords: `BREAKING CHANGE`,
 		revertPattern: /^revert:\s([\s\S]*?)\s*This reverts commit (\w*)\./,
