@@ -146,7 +146,7 @@ module.exports = {
 		{ name: 'common' },
 		{ name: 'build' },
 		{ name: 'core' },
-		{ name: 'upgrade' }
+		{ name: 'upgrade' },
 	],
 
 	// it needs to match the value for field type. Eg.: 'fix'

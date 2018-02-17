@@ -27,7 +27,7 @@ function getWriterOpts() {
 			const issues = [];
 
 			debug('commit', commit);
-			debug('context', context)
+			debug('context', context);
 
 			commit.notes.forEach(note => {
 				note.title = `BREAKING CHANGES`;
@@ -122,7 +122,7 @@ function getWriterOpts() {
 				return false;
 			});
 
-			debug('end commit', commit)
+			debug('end commit', commit);
 
 			return commit;
 		},

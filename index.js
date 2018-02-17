@@ -13,10 +13,10 @@ module.exports = Q.all([
 	writerOpts,
 ]).spread(
 	(conventionalChangelog, parserOpts, recommendedBumpOpts, writerOpts) => {
-		debug('conventionalChangelog', conventionalChangelog)
+		debug('conventionalChangelog', conventionalChangelog);
 		debug('parserOpts', parserOpts);
 		debug('recommededBumpOpts', recommendedBumpOpts);
-		debug('writerOpts', writerOpts)
+		debug('writerOpts', writerOpts);
 
 		return {
 			conventionalChangelog,
