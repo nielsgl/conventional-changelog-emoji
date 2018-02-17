@@ -17,7 +17,7 @@ Conventional Changelog Emoji Preset
 
 Add as a `devDependency` in your project:
 
-```
+```bash
 yarn add --dev conventional-changelog-emoji
 ```
 
@@ -28,7 +28,7 @@ yarn add --dev conventional-changelog-emoji
 ## :zap: Integrations
 
 
-## Example
+## :card_file_box: Example
 
 * _TODO_
 
