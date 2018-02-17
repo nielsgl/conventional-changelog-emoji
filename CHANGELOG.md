@@ -1,3 +1,16 @@
+<a name="0.1.1"></a>
+## [0.1.1](https://github.com/nielsgl/conventional-changelog-emoji/compare/0.1.0...0.1.1) (2018-02-17)
+
+
+### :lipstick: Styles
+
+* **core:** prettier **all** the things ([8578f8f](https://github.com/nielsgl/conventional-changelog-emoji/commit/8578f8f))
+
+
+### :memo: Documentation
+
+* **core:** update README with awesome badges :heart: ([9e3882d](https://github.com/nielsgl/conventional-changelog-emoji/commit/9e3882d))
+
 <a name="0.1.0"></a>
 # [0.1.0](https://github.com/nielsgl/conventional-changelog-emoji/compare/0.0.6...0.1.0) (2018-02-17)
 
