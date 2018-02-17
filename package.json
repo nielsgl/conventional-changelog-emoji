@@ -4,9 +4,9 @@
   "author": "Niels van Galen Last <nvangalenlast@gmail.com>",
   "description": "Conventional Changelog Emoji Preset",
   "keywords": [
-		"conventional changelog",
-		"changelog",
-		"emoji"
+    "conventional changelog",
+    "changelog",
+    "emoji"
   ],
   "license": "MIT",
   "homepage": "https://github.com/nielsgl/conventional-changelog-emoji#readme",
@@ -20,5 +20,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "debug": "^3.1.0",
+    "prettier": "^1.10.2",
+    "release-it": "^7.0.2"
   }
 }

@@ -1,2 +1,3 @@
-# conventional-changelog-emoji
+# Conventional Changelog Emoji
+
 Conventional Changelog Emoji Preset
