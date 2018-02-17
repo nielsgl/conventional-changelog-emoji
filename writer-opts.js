@@ -1,3 +1,4 @@
+const debug = require('debug')('app:writer-opts');
 const compareFunc = require(`compare-func`);
 const Q = require(`q`);
 const readFile = Q.denodeify(require(`fs`).readFile);
@@ -24,6 +25,9 @@ function getWriterOpts() {
 		transform: (commit, context) => {
 			let discard = true;
 			const issues = [];
+
+			debug('commit', commit);
+			debug('context', context)
 
 			commit.notes.forEach(note => {
 				note.title = `BREAKING CHANGES`;
@@ -92,6 +96,8 @@ function getWriterOpts() {
 
 				return false;
 			});
+
+			debug('end commit', commit)
 
 			return commit;
 		},
