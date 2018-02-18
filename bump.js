@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const conventionalRecommendedBump = require(`conventional-recommended-bump`);
 const crb = require('./conventional-recommended-bump');
 // console.log('crb', crb);
