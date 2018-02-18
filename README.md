@@ -7,6 +7,8 @@ Conventional Changelog Emoji Preset
 [![David](https://img.shields.io/david/nielsgl/conventional-changelog-emoji.svg?style=flat-square)](https://www.npmjs.com/package/conventional-changelog-emoji)
 [![David](https://img.shields.io/david/dev/nielsgl/conventional-changelog-emoji.svg?style=flat-square)](https://www.npmjs.com/package/conventional-changelog-emoji)
 
+[![CircleCI](https://circleci.com/gh/nielsgl/conventional-changelog-emoji/tree/master.svg?style=svg)](https://circleci.com/gh/nielsgl/conventional-changelog-emoji/tree/master)
+
 [![Github commits (since latest release)](https://img.shields.io/github/commits-since/nielsgl/conventional-changelog-emoji/latest.svg?style=flat-square)](https://github.com/nielsgl/conventional-changelog-emoji)
 [![GitHub issues](https://img.shields.io/github/issues/nielsgl/conventional-changelog-emoji.svg?style=flat-square)](https://github.com/nielsgl/conventional-changelog-emoji/issues)
 [![GitHub stars](https://img.shields.io/github/stars/nielsgl/conventional-changelog-emoji.svg?style=flat-square)](https://github.com/nielsgl/conventional-changelog-emoji/stargazers)
