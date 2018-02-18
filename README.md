@@ -1,5 +1,7 @@
 # Conventional Changelog Emoji
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nielsgl/conventional-changelog-emoji.svg)](https://greenkeeper.io/)
+
 Conventional Changelog Emoji Preset
 
 [![npm](https://img.shields.io/npm/v/conventional-changelog-emoji.svg?style=flat-square)](https://www.npmjs.com/package/conventional-changelog-emoji)
