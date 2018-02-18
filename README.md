@@ -1,7 +1,5 @@
 # Conventional Changelog Emoji
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/nielsgl/conventional-changelog-emoji.svg)](https://greenkeeper.io/)
-
 Conventional Changelog Emoji Preset
 
 [![npm](https://img.shields.io/npm/v/conventional-changelog-emoji.svg?style=flat-square)](https://www.npmjs.com/package/conventional-changelog-emoji)
@@ -9,7 +7,8 @@ Conventional Changelog Emoji Preset
 [![David](https://img.shields.io/david/nielsgl/conventional-changelog-emoji.svg?style=flat-square)](https://www.npmjs.com/package/conventional-changelog-emoji)
 [![David](https://img.shields.io/david/dev/nielsgl/conventional-changelog-emoji.svg?style=flat-square)](https://www.npmjs.com/package/conventional-changelog-emoji)
 
-[![CircleCI](https://circleci.com/gh/nielsgl/conventional-changelog-emoji/tree/master.svg?style=svg)](https://circleci.com/gh/nielsgl/conventional-changelog-emoji/tree/master)
+[![CircleCI](https://img.shields.io/circleci/project/github/nielsgl/conventional-changelog-emoji.svg?style=flat-square)](https://circleci.com/gh/nielsgl/conventional-changelog-emoji/tree/master)
+[![Greenkeeper badge](https://badges.greenkeeper.io/nielsgl/conventional-changelog-emoji.svg?style=flat-square)](https://greenkeeper.io/)
 
 [![Github commits (since latest release)](https://img.shields.io/github/commits-since/nielsgl/conventional-changelog-emoji/latest.svg?style=flat-square)](https://github.com/nielsgl/conventional-changelog-emoji)
 [![GitHub issues](https://img.shields.io/github/issues/nielsgl/conventional-changelog-emoji.svg?style=flat-square)](https://github.com/nielsgl/conventional-changelog-emoji/issues)
@@ -27,10 +26,11 @@ yarn add --dev conventional-changelog-emoji
 
 ## :wrench: Configuration
 
-
+* _TODO_
 
 ## :zap: Integrations
 
+* _TODO_
 
 ## :card_file_box: Example
 
