@@ -47,5 +47,8 @@
 		"cz-customizable": {
 			"config": ".cz-config.js"
 		}
+	},
+	"bin": {
+		"emoji-bump": "bump.js"
 	}
 }
