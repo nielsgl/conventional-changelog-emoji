@@ -1,3 +1,11 @@
+<a name="0.3.1"></a>
+## [0.3.1](https://github.com/nielsgl/conventional-changelog-emoji/compare/0.3.0...0.3.1) (2018-02-18)
+
+
+### :bug: Bug Fixes
+
+* **core:** make emoji-bump executable ([7829cce](https://github.com/nielsgl/conventional-changelog-emoji/commit/7829cce))
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/nielsgl/conventional-changelog-emoji/compare/0.2.0...0.3.0) (2018-02-18)
 
