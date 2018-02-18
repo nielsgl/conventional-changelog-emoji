@@ -1,3 +1,19 @@
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/nielsgl/conventional-changelog-emoji/compare/0.2.0...0.3.0) (2018-02-18)
+
+
+### :memo: Documentation
+
+* **common:** add gitmoji to example section ([ae73cf3](https://github.com/nielsgl/conventional-changelog-emoji/commit/ae73cf3))
+* **common:** add sections to README ([394ecf5](https://github.com/nielsgl/conventional-changelog-emoji/commit/394ecf5))
+* **common:** badge for commits since release ([80285e9](https://github.com/nielsgl/conventional-changelog-emoji/commit/80285e9))
+* **common:** update badges ([ce847ad](https://github.com/nielsgl/conventional-changelog-emoji/commit/ce847ad))
+
+
+### :sparkle: Features
+
+* **core:** add emoji-bump binary ([e100375](https://github.com/nielsgl/conventional-changelog-emoji/commit/e100375))
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/nielsgl/conventional-changelog-emoji/compare/0.1.1...0.2.0) (2018-02-17)
 
