@@ -32,7 +32,7 @@
 		"cz-customizable": "^5.2.0",
 		"debug": "^3.1.0",
 		"prettier": "^1.10.2",
-		"release-it": "^7.0.2"
+		"release-it": "^11.0.1"
 	},
 	"dependencies": {
 		"babel-core": "^6.10.4",
